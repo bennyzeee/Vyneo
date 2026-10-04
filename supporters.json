@@ -1,5 +1,5 @@
 {
-  "_note": "Who has unlocked what in Finity. Names are Jellyfin user names (not case sensitive). supporters: a gift of 5 dollars or more (the star, colour themes and fonts). pro: 10 dollars or more (Server admin). developers: the people who build Finity. A plain name counts only on the developer's own server (homeServerId); write Name@serverId for anyone on another server. Finity reads this file when it starts and keeps a copy for offline use.",
+  "_note": "Who has unlocked what in Vyneo. Names are Jellyfin user names (not case sensitive). supporters: a gift of 5 dollars or more (the star, colour themes and fonts). pro: 10 dollars or more (Server admin). developers: the people who build Vyneo. A plain name counts only on the developer's own server (homeServerId); write Name@serverId for anyone on another server. Vyneo reads this file when it starts and keeps a copy for offline use.",
   "homeServerId": "01f2d4d0b65c4ef49859f449b10eee74",
   "developers": [ "bennyzee", "bennyzeee" ],
   "supporters": [ "bennyzee" ],
