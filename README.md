@@ -24,6 +24,7 @@
 </p>
 
 <p align="center">
+  <a href="https://bennyzeee.github.io/Vyneo/">Website</a> ·
   <a href="#download">Download</a> ·
   <a href="#screenshots">Screenshots</a> ·
   <a href="#features">Features</a> ·
