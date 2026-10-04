@@ -52,15 +52,33 @@ Both files are on the **[Releases](../../releases/latest)** page. You need a Jel
 
 ## Screenshots
 
+### On Windows
+
+<p align="center">
+  <img src="assets/win-home.jpg" width="100%" alt="Vyneo on Windows: Home with the rotating banner and Continue Watching">
+</p>
+
+<p align="center">
+  <img src="assets/win-details.jpg" width="49%" alt="A movie page with the cast">
+  <img src="assets/win-movies.jpg" width="49%" alt="A library, with watched titles and progress">
+</p>
+
+<p align="center">
+  <img src="assets/win-rows.jpg" width="49%" alt="Home rows">
+  <img src="assets/win-search.jpg" width="49%" alt="Search with filters">
+</p>
+
 ### On your phone
 
 <p align="center">
-  <img src="assets/phone-home.png" width="250" alt="Vyneo home screen">
+  <img src="assets/phone-home.jpg" width="250" alt="Vyneo on Android: Home">
   &nbsp;&nbsp;
-  <img src="assets/phone-details.png" width="250" alt="Vyneo details page">
+  <img src="assets/phone-details.jpg" width="250" alt="A movie page">
   &nbsp;&nbsp;
-  <img src="assets/phone-details-2.png" width="250" alt="Vyneo cast and media info">
+  <img src="assets/phone-favourites.jpg" width="250" alt="Favourites">
 </p>
+
+<sub>Screenshots use a demo library; posters and artwork belong to their respective owners.</sub>
 
 ## Features
 
