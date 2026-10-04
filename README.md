@@ -45,7 +45,9 @@
 Both files are on the **[Releases](../../releases/latest)** page. You need a Jellyfin server (10.9 or newer is best). Vyneo does not host or provide any media, and is not affiliated with the Jellyfin project.
 
 > **Windows says "Windows protected your PC"?** The installer is not signed yet. Choose **More info → Run anyway**.
+>
 > **Android:** open the APK and allow installs from your browser or files app when asked.
+>
 > **Updating:** run the new installer. It finds your installed Vyneo and offers to update it, reinstall or uninstall. Windows can also check by itself under *Settings → About → Check for updates*.
 
 ## Screenshots
