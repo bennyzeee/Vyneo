@@ -1,7 +1,11 @@
 {
-  "_note": "Who has unlocked what in Vyneo. Names are Jellyfin user names (not case sensitive). supporters: a gift of 5 dollars or more (the star, colour themes and fonts). pro: 10 dollars or more (Server admin). developers: the people who build Vyneo. A plain name counts only on the developer's own server (homeServerId); write Name@serverId for anyone on another server. Vyneo reads this file when it starts and keeps a copy for offline use.",
-  "homeServerId": "01f2d4d0b65c4ef49859f449b10eee74",
-  "developers": [ "bennyzee", "bennyzeee" ],
-  "supporters": [ "bennyzee" ],
+  "_note": "Who has unlocked what in Vyneo. Every entry is a one-way code, not a name; the app checks its own user against these codes.",
+  "developers": [
+    "h:6a9276114e57c7b3b6dd7c4511ee631a9f22c2bc81aaadc0580c6d03d99b2e5b",
+    "h:fd0e886a1cfa4d558a8063d0feda78312620458686c99ea5b09eddaa57be1bf4"
+  ],
+  "supporters": [
+    "h:6a9276114e57c7b3b6dd7c4511ee631a9f22c2bc81aaadc0580c6d03d99b2e5b"
+  ],
   "pro": []
 }
