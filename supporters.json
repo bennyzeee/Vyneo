@@ -9,7 +9,7 @@
                        "h:6a9276114e57c7b3b6dd7c4511ee631a9f22c2bc81aaadc0580c6d03d99b2e5b",
                        "h:e596b055c31a3a2bb8e8bb2e30d405799a3f263387630e5fa9a194665ce3167c"
                    ],
-    "pro": [
+    "pro":  [
 
             ],
     "betaTesters":  [
@@ -22,6 +22,8 @@
                         "h:516ebb7b6fe852ccaad9375e0148bc97de1e459010aa2d24c3e14ad6e834c068",
                         "h:3a644770c186687b266d2b242de935821d38a50510cf021a2e90f8a6ea44647f",
                         "h:706c82fb3dc8546ee9d5bf6a6518a4925ba8d9290b11f7f121833e82e3a58527",
-                        "h:ae1d8122e095855a26e80fac12d0dae916c2eb60eabb98326e06d03864164e00"
+                        "h:ae1d8122e095855a26e80fac12d0dae916c2eb60eabb98326e06d03864164e00",
+                        "h:b1f8b20177268dfcca8ceadd4fb5127d1ba2373a1eef9e084cb71156c2500416",
+                        "h:8a69144b21da4b91681c42b44574002b50e7bf3050f1361fb9b96cce40462870"
                     ]
 }
