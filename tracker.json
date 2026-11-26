@@ -1,0 +1,46 @@
+{
+  "updated": "2026-11-26T12:00:00Z",
+  "now": {
+    "beta": 5,
+    "done": 6,
+    "total": 7,
+    "summary": "Home loading, saved covers, a smarter buffer for skipping and weak connections, the slow-internet note and the Skip Intro hover are done and being tested."
+  },
+  "items": [
+    { "status": "prog", "title": "Skipping forward and back is not instant", "line": "A bigger, smarter video buffer.", "detail": "The buffer is worked out each time a video starts, from your free memory and the line. Skipping inside it is instant, forward and back. A jump far outside it, like half an hour ahead, still has to fetch from the server.", "platforms": ["Windows", "Android"], "fixedIn": "1.1.6 beta 5" },
+    { "status": "prog", "title": "Videos stall on a weak connection", "line": "More is kept ahead of you on a slow line.", "detail": "When the line is slow or drops packets, a larger share of the buffer goes to what is coming up, so short drops no longer stop the picture.", "platforms": ["Windows", "Android"], "fixedIn": "1.1.6 beta 5" },
+    { "status": "prog", "title": "Home stays blank on a slow connection", "line": "Home says what it waits for and retries by itself.", "detail": "A loading message, then \"Still connecting\", and when the server does not answer a countdown with a Try now button. A steadier connection to the server underneath.", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 5" },
+    { "status": "prog", "title": "Covers load slowly on weak internet", "line": "Locked cover cache and lighter covers on a slow line.", "detail": "Covers are saved on your PC (scrambled, only Vyneo can open them), replaced covers are deleted, and smaller ones are asked for while the line is slow.", "platforms": ["Windows", "Android"], "fixedIn": "1.1.6 beta 5" },
+    { "status": "prog", "title": "No sign when the internet is slow", "line": "A note under your profile says so.", "detail": "\"Slow internet, loading lighter covers\", then \"Connection is back\" in green when it recovers.", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 5" },
+    { "status": "prog", "title": "Skip Intro and Skip Recap go black on hover", "line": "The button keeps its light look under the pointer.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 5" },
+
+    { "status": "inv", "title": "Watch Together drifts between two players", "line": "Needs a test with two real players.", "detail": "The heartbeat sync is in, but long-session drift is not confirmed. If you see two people slowly falling out of step, use I have this too and say how long you had been watching.", "platforms": ["Windows", "Android"] },
+
+    { "status": "fixed", "title": "Different Vyneo versions in Watch Together", "line": "A warning is shown, never a block.", "detail": "If the other person is on another version, the invite says so and you can still go ahead.", "platforms": ["Windows", "Android"], "fixedIn": "1.1.6 beta 4" },
+    { "status": "fixed", "title": "Discover trailer cut off its subtitles", "line": "The banner is taller.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 4" },
+
+    { "status": "fixed", "title": "Subtitle list crash in the player", "line": "Opening Settings in the video no longer closes Vyneo.", "detail": "It happened when a video had several subtitle tracks in the same language.", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 3" },
+    { "status": "fixed", "title": "Top bar pill stuck off its tab", "line": "It stays on its tab after a resize.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 3" },
+
+    { "status": "fixed", "title": "Leaving a Watch Together video", "line": "Back, the mouse back button or Esc leaves the party at once.", "detail": "The host's next update no longer pulls you back in.", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 1" },
+    { "status": "fixed", "title": "Joining someone who is a guest", "line": "The request goes to the host.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 1" },
+    { "status": "fixed", "title": "Top bar heart sat off line", "line": "It sits level with the search button.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 1" },
+    { "status": "fixed", "title": "Search left a brighter band at the top", "line": "The top bar dims together with the page.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 1" },
+    { "status": "fixed", "title": "Two quiet errors on every start", "line": "No longer logged when Jellyseerr is not set up.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.6 beta 1" },
+
+    { "status": "fixed", "title": "Picture subtitles (PGS) in the wrong place", "line": "They sit right when the picture is fitted.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.5" },
+    { "status": "fixed", "title": "Skip Intro landed on the wrong scene", "line": "It finds the real opening when a file has Intro and OP chapters.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.5" },
+    { "status": "fixed", "title": "Two cards said Waiting on the server", "line": "Only one says it now.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.5" },
+    { "status": "fixed", "title": "Badges looked different at start", "line": "They look the same before and after syncing.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.5" },
+    { "status": "fixed", "title": "Profile picture cut off in the top bar", "line": "It shows whole.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.5" },
+
+    { "status": "fixed", "title": "Skip Intro landed before the song", "line": "A chapter named OP or Opening wins over a plain Intro.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.4.1" },
+
+    { "status": "fixed", "title": "Space bar paused for guests", "line": "Only people the host gave control to can pause.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.4" },
+    { "status": "fixed", "title": "Title card said the server was asleep", "line": "It no longer says so when the server is fine.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.4" },
+    { "status": "fixed", "title": "Window could be made too small", "line": "The top bar and cards are no longer cut off.", "detail": "", "platforms": ["Windows"], "fixedIn": "1.1.4" },
+
+    { "status": "design", "title": "No Watch Together on Android TV", "line": "TV is for the couch with family.", "detail": "Watch Together is for phones, tablets and PCs.", "platforms": ["TV"] },
+    { "status": "design", "title": "Invites only arrive while the app is open", "line": "On purpose, to keep Vyneo light.", "detail": "", "platforms": ["Android"] }
+  ]
+}
